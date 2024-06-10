@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Lógica</title>
+    <style>
+        canvas {
+            border: 1px solid black;
+            display: block;
+            margin: 20px auto;
+        }
+        #controls {
+            text-align: center;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <label style="font-size: 25px; display: block; margin-left: 20vw;">
+        Teclas Aeronave Herói: a (esquerda), d (direita), w (cima), s (baixo), e (atirar) <br>
+        Teclas Aeronave Inimiga: ← (esquerda), → (direita), ↑ (cima), ↓  (baixo), espaço (atirar)  
+    </label><br>
+    <div id="colisao" style="text-align: center; color: red; font-size: 24px;">Colisão detectada!</div>
+    <canvas id="gameCanvas" width="1000" height="600"></canvas>
+    <img id="colisaoGif" src="img/explosaogif.gif" style="width: 300px; margin-left: 120px; margin-top: 120px; display: none; position: absolute;" />
+
+    
+</div>
+
+<script src="js/GamesWeb.js">
+</script>
+
+</body>
+</html>
